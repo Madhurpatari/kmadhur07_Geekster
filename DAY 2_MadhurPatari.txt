@@ -1,0 +1,94 @@
+1.import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int r = sc.nextInt();
+        System.out.println(Math.PI*r*r);
+    }
+}
+
+2.import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double b = sc.nextInt();
+        double h = sc.nextInt();
+        System.out.println(0.5*b*h);
+    }
+}
+
+3.import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        boolean ans;
+        ans = x>1000;
+        System.out.println(ans);
+    }
+}
+
+5.
+a. Int x = 7+3+4 ---------14
+b. Int x = 12 + 5 + 8------25
+c. Int x= 13/5 + 18/8------4
+d. double x= 12 + 5.0 + 2.76-----19.76
+e. double x= 12/3 + 13/2----10
+f. double x=12/3 + 13.0/2----10.5
+g. double x=14/2 + 15.0/4-----10.75
+h. double x= 13/2 % 5/3-----0.0
+i. double x= 17.0/2 % 16.0/4-----2.125
+
+6.
+a. boolean ans = 3 > 2-----T
+b. boolean ans = 3 ≥ 3-----T
+c. boolean ans = 4 + 3 > 9----F
+d. boolean ans = 10 + 8 > 10----T
+e. boolean ans = 12 != 10-----T
+f. boolean ans = 13 == 13-----T
+g. boolean ans = 14 != 14----F
+h. boolean ans = 20 == 5*4----T
+i. boolean ans = 30 != 3+4-10-----T
+j. boolean ans = 20 == 41/2----T
+
+7.import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int sub1 = sc.nextInt();
+        int sub2 = sc.nextInt();
+        int sub3 = sc.nextInt();
+        int sub4 = sc.nextInt();
+        int sub5 = sc.nextInt();
+        System.out.println(sub1 + sub2 + sub3 + sub4+ sub5);
+    }
+}
+
+8. import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = sc.nextInt();
+        boolean ans;
+        ans = (a*b*c*d) >1000;
+        
+        System.out.println(ans);
+    }
+}
+
+9. import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        boolean ans;
+        ans = a%7 == 0;
+        
+        System.out.println(ans);
+    }
+}
+
+
